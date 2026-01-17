@@ -1,13 +1,14 @@
-# 🔒 Ansible Security Audit Framework
-
-**Enterprise-Grade Security Compliance Automation für Linux-Systeme**
-Automatisiert manuelle Sicherheitsaudits in reproduzierbare, revisionssichere und skalierbare Prozesse.
-
 ![Ansible](https://img.shields.io/badge/Ansible-2.9+-red.svg?logo=ansible\&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-5.0+-blue.svg?logo=gnu-bash\&logoColor=white)
 ![Lizenz](https://img.shields.io/badge/Lizenz-MIT-green.svg)
 ![Plattform](https://img.shields.io/badge/Plattform-Linux-lightgrey.svg?logo=linux\&logoColor=white)
 ![Security](https://img.shields.io/badge/Sicherheit-CIS%20Compliant-orange.svg)
+
+
+# 🔒 Ansible Security Audit Framework
+
+**Enterprise-Grade Security Compliance Automation für Linux-Systeme**
+Automatisiert manuelle Sicherheitsaudits in reproduzierbare, revisionssichere und skalierbare Prozesse.
 
 ---
 
@@ -150,16 +151,6 @@ Das Framework erzeugt automatisch **strukturierte HTML-Berichte** mit:
 
 ---
 
-## 📈 Performance & Skalierung
-
-| Szenario   | Laufzeit       |
-| ---------- | -------------- |
-| Einzelhost | 3–5 Minuten    |
-| 100 Hosts  | ~15–20 Minuten |
-| 1000 Hosts | < 60 Minuten   |
-
----
-
 ## 🧱 Projektstruktur
 
 ```
@@ -192,6 +183,12 @@ ansible-security-audit/
 | DevOps              | CI/CD-Integration             |
 | Auditor             | Compliance-Nachweise          |
 | Management          | KPIs & Executive Summary      |
+
+---
+
+## Beispiel: Security Audit Report
+
+![Screenshot Report](assets/example_report.png)
 
 ---
 
