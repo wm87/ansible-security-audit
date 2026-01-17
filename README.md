@@ -124,17 +124,19 @@ ansible --version   # >= 2.9
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/ansible-security-audit.git
+git clone https://github.com/wm87/ansible-security-audit.git
 cd ansible-security-audit
-./create_local_security_audit.sh my-security-audit
+bash run_secure_audit.sh
 ```
 
 ### Audit ausführen
 
 ```bash
-cd my-security-audit
+cd ansible-local-security-audit
 ansible-playbook -i inventory site.yml
-xdg-open /bigdata/tmp/ansible-security-audit/security_report_localhost.html
+
+# Report gespeichert unter:
+# /bigdata/tmp/ansible-security-audit/security_report_localhost.html
 ```
 
 ---
